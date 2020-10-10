@@ -21,5 +21,5 @@ admin.site.site_title = "Administrador de notas"
 admin.site.index_title = "Administrador de notas"
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', admin.site.urls),
 ]
