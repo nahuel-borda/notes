@@ -25,7 +25,7 @@ SECRET_KEY = '^1u2hbs=ln3a#u&pd51%)djeo3z7o-maep#!7030^^d9q3j+ph'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["sv11.minehost.com.ar",]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_media/')
 
